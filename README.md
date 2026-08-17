@@ -60,8 +60,8 @@
 
 ```bash
 # 1. 克隆仓库
-git clone <你的GitHub仓库地址>
-cd 文广学生票监控
+git clone https://github.com/9thawk/wen-guang-student-ticket-monitor.git
+cd wen-guang-student-ticket-monitor
 
 # 2. 安装依赖
 pip install -r requirements.txt
