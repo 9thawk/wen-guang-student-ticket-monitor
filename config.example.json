@@ -1,0 +1,30 @@
+{
+    "performances": [
+        {"name": "基督山伯爵",     "article_id": "41911", "enabled": true},
+        {"name": "大状王",         "article_id": "41885", "enabled": true},
+        {"name": "锦衣卫之刀与花", "article_id": "41784", "enabled": true},
+        {"name": "粉丝来信",       "article_id": "41809", "enabled": true},
+        {"name": "我的遗愿清单",   "article_id": "41821", "enabled": true}
+    ],
+    "check_interval_seconds": 30,
+    "request_timeout_seconds": 15,
+    "quiet_hours_enabled": false,
+    "quiet_start": "23:00",
+    "quiet_end": "08:00",
+
+    "_push_help": "=== 多人推送配置说明（三选一或多选）===",
+
+    "pushplus_tokens": [],
+    "_pushplus_help": "PushPlus: 每人去 https://www.pushplus.plus/ 注册获取token，填入数组即可推送给多人。例如: [\"token1\", \"token2\"]",
+
+    "serverchan_keys": [],
+    "_serverchan_help": "Server酱: 每人去 https://sct.ftqq.com/ 注册获取SendKey，填入数组。例如: [\"key1\", \"key2\"]",
+
+    "wechat_work_webhook": "",
+    "_wechat_work_help": "企业微信群机器人: 建一个企微群 -> 群设置 -> 群机器人 -> 获取webhook地址。一条消息全群可见，天然支持多人！",
+
+    "email_user": "",
+    "email_pass": "",
+    "email_to": [],
+    "_email_help": "QQ邮箱通知: email_user 填 QQ邮箱地址（如 12345678@qq.com），email_pass 填邮箱的16位授权码（非QQ密码），email_to 填收件人邮箱列表。不填则不发邮件。"
+}

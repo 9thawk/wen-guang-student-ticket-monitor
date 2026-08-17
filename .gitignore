@@ -1,0 +1,43 @@
+# ========== Python ==========
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# ========== 本地运行配置与数据（含推送 Token，绝不能上传）==========
+# config.json 包含 PushPlus / Server酱 / 企微 / 邮箱等真实推送凭证
+config.json
+# 上次检查状态（运行时自动生成）
+last_state.json
+
+# ========== 日志 ==========
+*.log
+monitor.log
+
+# ========== 环境变量 ==========
+.env
+.env.*
+!.env.example
+
+# ========== 操作系统 ==========
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+
+# ========== IDE / 编辑器 ==========
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
